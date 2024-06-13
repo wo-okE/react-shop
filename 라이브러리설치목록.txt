@@ -1,0 +1,34 @@
+npm install react-bootstrap bootstrap
+npm install react-router-dom@6
+npm install styled-components
+npm install axios
+npm install @reduxjs/toolkit react-redux
+npm install react-query (항상 유용하지는 않음)
+
+
+
+chrome : react developer tools ( 컴포넌트를 구조화 해서 보여줌, props, state(hooks) 출력해줌 )
+         profiler 각 페이지별 시간 계산 가능,
+         
+         redux devTools ( state 변경내역, store 한눈에 보여줌 )
+
+
+
+Single Page Application 특징 : 발행하면 js 파일 하나에 모든 코드 들어감
+                               
+
+
+pwa가 셋팅된 리액트 프로젝트 (생성 시)
+
+npx create-react-app my-app --template cra-template-pwa
+
+manifest.json 수정
+
+index.js에 
+serviceWorkerRegistration.unregister() -> register(); 로 변경
+serviceWorker는 오프라인에서도 사이트 열 수 있게 도와줌.
+
+npm run build ( html css js로 )
+
+
+asset-manifest.json ( 캐싱목록 파일 )
