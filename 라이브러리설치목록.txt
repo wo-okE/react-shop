@@ -4,7 +4,7 @@ npm install styled-components
 npm install axios
 npm install @reduxjs/toolkit react-redux
 npm install react-query (항상 유용하지는 않음)
-
+npm install http-proxy-middleware
 
 
 chrome : react developer tools ( 컴포넌트를 구조화 해서 보여줌, props, state(hooks) 출력해줌 )
